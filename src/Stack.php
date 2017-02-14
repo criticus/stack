@@ -26,9 +26,6 @@ class Stack extends SplQueue
         $this->size = 0;
     }
 
-    //Add an item to the top of the stack.
-    //Prevent stack overflow.
-
     /**
      * Gets the top item of the stack
      * @return mixed
@@ -39,7 +36,6 @@ class Stack extends SplQueue
         $this->s_push($last_item);
         return $last_item;
     }
-
 
     /**
      * Removes the item on top of the stack.
